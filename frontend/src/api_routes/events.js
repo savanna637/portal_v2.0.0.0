@@ -1,4 +1,3 @@
-// backend összekapcsolásához kell elvileg
 import axios from 'axios';
 
 export const getEvents = () => {

@@ -1,17 +1,6 @@
-
-Sziasztook. Én eddig frontenddel foglalkoztam. Az összes fileban probaltam értelmezhető kommenteket írni, szval szerintem elég felfogható most.
-
-
 # projekt elinditasa
-1) cmd-t elinditunk és navigalunk oda ahol a projekt található
-2) be kell lépni "frontend" folderbe (cd frontend)
-3) összes dependenciet elvileg le kell tölteni. CMD-be ezeket irjunk:
-
-[] npm install (összes dependenciet letölti)
-
-[] npm install react-router-dom (nem vagyok benne biztos hogy előző lépésben ezt letölti)
-
-[] npm start (ezzel elinditod a localhostot)
+1) cmd-be belépünk és azon belül a Frontend mappába
+2) npm start
 
 
 # Getting Started with Create React App

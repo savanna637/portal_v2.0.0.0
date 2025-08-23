@@ -6,7 +6,6 @@ export default function Calendar() {
   const [events, setEvents] = useState([]);
 
   useEffect(() => {
-    // ez a pelda kod csak
     fetch("http://127.0.0.1:5000/schedules/events") // Flask API
       .then((res) => res.json())
       .then((data) => {

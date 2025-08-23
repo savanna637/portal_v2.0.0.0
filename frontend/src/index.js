@@ -1,4 +1,3 @@
-// ez elvileg ugy marad ahogy van
 import React from "react";
 import ReactDOM from "react-dom/client";
 import App from "./App";
