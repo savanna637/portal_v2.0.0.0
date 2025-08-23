@@ -1,19 +1,16 @@
-// ALAP REACT ALKALMAZAS
+// alap alkalmazas/oldal struktura
+// amik itt vannak ez a default layout
 
-import React from "react";
-import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
-import Events from './pages/Events';
-import NavigationBar from './components/NavigationBar';
-
+import { BrowserRouter } from "react-router-dom";
+import Navbar from "./components/navbar";
+import AppRoutes from "./routes";
 
 function App() {
   return (
-    <Router>
-      <Routes>
-        <Route path="/events" element={<Events />} />
-        
-      </Routes>
-    </Router>
+    <BrowserRouter>
+      <Navbar />
+      <AppRoutes />
+    </BrowserRouter>
   );
 }
 
