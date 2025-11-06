@@ -37,9 +37,7 @@ export default function Timetable({ eventsUrl = "/events" }) {
 
   return (
     <div className="p-6">
-      <h1 className="text-2xl font-bold mb-4">NAPTÁR KOMPONENS</h1>
-      <p1>Ez a naptár a /events végpontról tölti be az eseményeket. De mashol is fel lehet hasznilni a komponenst</p1>
-
+      
 
       <FullCalendar
         plugins={[dayGridPlugin]}
